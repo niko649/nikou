@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>彰化小旅行</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Noto Sans TC', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #fdfaf6;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff8f0;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #7b4c3b;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #7b4c3b;
+      font-weight: 500;
+    }
+
+    .banner {
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/52/Lukang_Town_-_panoramio.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+      background-blend-mode: multiply;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .banner h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .banner p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .main-section {
+      display: flex;
+      justify-content: space-around;
+      padding: 3rem 2rem;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: #fffefb;
+      border: 1px solid #e8e2d6;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      padding: 1rem;
+      color: #7b4c3b;
+    }
+
+    .card p {
+      padding: 0 1rem 1rem 1rem;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #fff8f0;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">彰化小旅行</div>
+      <ul class="nav-links">
+        <li><a href="#">精選景點</a></li>
+        <li><a href="#">在地美食</a></li>
+        <li><a href="#">小旅行攻略</a></li>
+      </ul>
+    </nav>
+    <div class="banner">
+      <h1>走進紅磚巷弄，發現彰化的溫度</h1>
+      <p>#文青旅行 #彰化慢生活</p>
+    </div>
+  </header>
+
+  <main class="main-section">
+    <section class="card">
+      <img src="Lukang_old_street.jpg" alt="鹿港老街" />
+      <h2>📍 精選景點</h2>
+<a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001113&id=C100_441">鹿港老街</a>
+      <p>走進歷史街區，感受彰化的古老與新生。</p>
+    </section>
+
+    <section class="card">
+      <img src="Changhua_rouyuan.jpg" alt="彰化肉圓" />
+      <h2>🍴 在地美食</h2>
+<a href="https://www.welcometw.com/%E5%BD%B0%E5%8C%96%E8%82%89%E5%9C%93/">彰化肉圓</a>
+      <p>從肉圓到貓鼠麵，一口吃下家的味道。</p>
+    </section>
+
+    <section class="card">
+      <img src="Baguashan.jpg" alt="八卦山大佛" />
+      <h2>🧳 小旅行攻略</h2>
+<a href="https://tourism.chcg.gov.tw/AttractionsContent.aspx?id=10&chk=cbdf5fd9-0b1e-4e04-b514-c61b641a3b2e&l=TW">八卦山</a>
+      <p>規劃半日、一日、兩日路線，說走就走。</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 彰化小旅行. 由你與地方一起寫下的故事。</p>
+  </footer>
+</body>
+</html>
